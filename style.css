@@ -1,34 +1,46 @@
 body {
-<<<<<<< HEAD
-    background-color: cornflowerblue;
-=======
     position: relative;
     background-color: rgb(129, 167, 238);
-    background-image: url(https://unsplash.com/photos/hGV2TfOh0ns);
+    background-image: url(https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    text-align:left;
+    background-color: transparent;
+    position: relative;
+    border-radius: 30px;
 }
 h1 {
-    text-align: center;
-    background-color: rgb(219, 154, 228);
+    text-align: left;
+    /* background-color: rgb(192, 157, 000); */
+    background-color: transparent;
+}
+h2 {
+    text-align: left;
+    position:relative;
+
+}
+childOfContainer {
+    text-align: left;
+    position:absolute;
 }
  div {
-    background-color:greenyellow;
+    background-color:rgba(223, 203, 236, 0.781);
     border-radius: 10px;
     width: 675px;
     padding: 20px;
     text-align: left;
-    margin-left: 60px;
+    margin-left: 20px;
     border: 5px solid white;
 }
-
-h2 {
-    text-align: center;
-    position:relative;
-
+#id{
+    background-position: left;
 }
+
 sidebar {
     position:absolute;
     text-align: right;
     top: 0px;
     right:0 px;
->>>>>>> 30f3b69 (added port_1 to github project)
 }
